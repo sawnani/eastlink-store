@@ -2,9 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -25,3 +23,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Submition questions 
+
+Make sure Node.js is installed (version 18+ recommended)
+
+Run : npm install
+This installs all dependencies listed in package.json
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+
+Total Estimated Time : Approximately 5–6 hours
+
+Desktop Scroll Issue : Desktop layout has a scroll I need some more time to resolve it.
+
+Items you might consider adding in a future version :
+creating environmental files.
+creating seperate interface file for data types.
+adding lint and preetier
+Adding add to cart logic
+Adding real time search.

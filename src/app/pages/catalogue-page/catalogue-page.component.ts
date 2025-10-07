@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductService, Product } from '../../services/product.service';
+import { ProductService } from '../../services/product.service';
 
 @Component({
   selector: 'app-catalogue-page',
@@ -7,9 +7,22 @@ import { ProductService, Product } from '../../services/product.service';
   styleUrls: ['./catalogue-page.component.scss']
 })
 export class CataloguePageComponent implements OnInit {
-  products: Product[] = [];
+  products: any[] = [];
+  errorMessage: string | null = null;
+  isLoading = true;
+
   constructor(private productService: ProductService) {}
+
   ngOnInit(): void {
-    this.productService.getProducts().subscribe((data) => (this.products = data));
+    this.productService.getProducts().subscribe({
+      next: (data) => {
+        this.products = data;
+        this.isLoading = false;
+      },
+      error: (err) => {
+        this.errorMessage = err.message || 'Unable to load products.';
+        this.isLoading = false;
+      },
+    });
   }
 }
