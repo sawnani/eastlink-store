@@ -1,0 +1,27 @@
+<nav
+  class="sticky top-0 z-50 bg-eastlink-blue text-white flex items-center justify-between px-6 py-4 shadow">
+  <a routerLink="/" class="font-bold text-xl">Eastlink</a>
+
+  <div class="space-x-6 hidden sm:flex">
+    <a routerLink="/" routerLinkActive="underline text-eastlink-light">Home</a>
+    <a routerLink="/catalogue" routerLinkActive="underline text-eastlink-light">Shop</a>
+  </div>
+
+  <button
+    class="sm:hidden p-2 rounded-md hover:bg-blue-800"
+    (click)="isOpen = !isOpen"
+    aria-label="Toggle navigation">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+      viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+  <div
+    *ngIf="isOpen"
+    class="absolute top-16 left-0 w-full bg-eastlink-blue flex flex-col items-center sm:hidden">
+    <a routerLink="/" class="py-2 w-full text-center border-b border-blue-800">Home</a>
+    <a routerLink="/catalogue" class="py-2 w-full text-center">Shop</a>
+  </div>
+</nav>

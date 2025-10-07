@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "EcoFlex T-Shirt",
+    "description": "Soft organic cotton T-shirt in classic fit.",
+    "price": 29.99,
+    "image": "assets/images/tshirt.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Denim Jacket",
+    "description": "Durable denim jacket with a modern cut.",
+    "price": 89.99,
+    "image": "assets/images/denim-jacket.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Urban Hoodie",
+    "description": "Comfortable fleece hoodie for everyday wear.",
+    "price": 59.99,
+    "image": "assets/images/hoodie.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Athletic Joggers",
+    "description": "Stretch-fit joggers perfect for workouts or lounging.",
+    "price": 49.99,
+    "image": "assets/images/joggers.jpg"
+  }
+]
