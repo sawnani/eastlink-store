@@ -4,27 +4,127 @@
     "name": "EcoFlex T-Shirt",
     "description": "Soft organic cotton T-shirt in classic fit.",
     "price": 29.99,
-    "image": "assets/images/tshirt.jpg"
+    "image": "assets/images/tshirt.jpg",
+    "category": "Tops",
+    "shortDescription": "Sustainable and soft everyday tee.",
+    "details": {
+      "material": "100% organic cotton",
+      "availableColors": ["White", "Navy", "Charcoal"],
+      "availableSizes": ["S", "M", "L", "XL"],
+      "care": "Machine wash cold, tumble dry low",
+      "madeIn": "Canada"
+    }
   },
   {
     "id": 2,
     "name": "Denim Jacket",
     "description": "Durable denim jacket with a modern cut.",
     "price": 89.99,
-    "image": "assets/images/denim-jacket.jpg"
+    "image": "assets/images/denim-jacket.jpg",
+    "category": "Outerwear",
+    "shortDescription": "Timeless denim with Eastlink comfort.",
+    "details": {
+      "material": "98% cotton, 2% elastane",
+      "availableColors": ["Light Blue", "Black", "Indigo"],
+      "availableSizes": ["S", "M", "L", "XL", "XXL"],
+      "care": "Hand wash cold, hang dry",
+      "madeIn": "Bangladesh"
+    }
   },
   {
     "id": 3,
     "name": "Urban Hoodie",
     "description": "Comfortable fleece hoodie for everyday wear.",
     "price": 59.99,
-    "image": "assets/images/hoodie.jpg"
+    "image": "assets/images/hoodie.jpg",
+    "category": "Sweatshirts",
+    "shortDescription": "Cozy, warm, and effortlessly stylish.",
+    "details": {
+      "material": "60% cotton, 40% polyester",
+      "availableColors": ["Gray", "Black", "Olive"],
+      "availableSizes": ["S", "M", "L", "XL"],
+      "care": "Machine wash warm, tumble dry low",
+      "madeIn": "Vietnam"
+    }
   },
   {
     "id": 4,
     "name": "Athletic Joggers",
     "description": "Stretch-fit joggers perfect for workouts or lounging.",
     "price": 49.99,
-    "image": "assets/images/joggers.jpg"
+    "image": "assets/images/joggers.jpg",
+    "category": "Bottoms",
+    "shortDescription": "Flexible comfort, designed for motion.",
+    "details": {
+      "material": "95% polyester, 5% spandex",
+      "availableColors": ["Black", "Navy", "Heather Gray"],
+      "availableSizes": ["S", "M", "L", "XL", "XXL"],
+      "care": "Machine wash cold, hang dry",
+      "madeIn": "China"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Slim Fit Chinos",
+    "description": "Classic slim fit chinos in versatile colors.",
+    "price": 59.99,
+    "image": "assets/images/chinos.jpg",
+    "category": "Bottoms",
+    "shortDescription": "Smart, casual pants for every occasion.",
+    "details": {
+      "material": "98% cotton, 2% elastane",
+      "availableColors": ["Beige", "Olive", "Navy"],
+      "availableSizes": ["S", "M", "L", "XL", "XXL"],
+      "care": "Machine wash cold, tumble dry low",
+      "madeIn": "India"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Classic Polo Shirt",
+    "description": "Soft pique polo shirt for casual and semi-formal wear.",
+    "price": 39.99,
+    "image": "assets/images/polo.jpg",
+    "category": "Tops",
+    "shortDescription": "Timeless polo design for everyday style.",
+    "details": {
+      "material": "100% cotton",
+      "availableColors": ["White", "Blue", "Red", "Black"],
+      "availableSizes": ["S", "M", "L", "XL"],
+      "care": "Machine wash cold, tumble dry low",
+      "madeIn": "Bangladesh"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Lightweight Windbreaker",
+    "description": "Packable windbreaker jacket, water-resistant.",
+    "price": 79.99,
+    "image": "assets/images/windbreaker.jpg",
+    "category": "Outerwear",
+    "shortDescription": "Protect yourself from wind and light rain.",
+    "details": {
+      "material": "100% polyester",
+      "availableColors": ["Black", "Red", "Gray"],
+      "availableSizes": ["S", "M", "L", "XL", "XXL"],
+      "care": "Machine wash cold, hang dry",
+      "madeIn": "Vietnam"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Graphic Crewneck Sweatshirt",
+    "description": "Soft cotton-blend sweatshirt with modern graphic print.",
+    "price": 54.99,
+    "image": "assets/images/crewneck.jpg",
+    "category": "Sweatshirts",
+    "shortDescription": "Casual comfort with style.",
+    "details": {
+      "material": "60% cotton, 40% polyester",
+      "availableColors": ["Gray", "Black", "Navy"],
+      "availableSizes": ["S", "M", "L", "XL"],
+      "care": "Machine wash warm, tumble dry low",
+      "madeIn": "China"
+    }
   }
 ]

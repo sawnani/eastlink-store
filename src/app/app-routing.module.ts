@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
-import { CataloguePageComponent } from './pages/catalogue-page/catalogue-page.component';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
-  { path: 'catalogue', component: CataloguePageComponent },
+  { path: 'catalogue', loadChildren: () => import('./pages/catalogue/catalogue.module').then(m => m.CatalogueModule) },
   { path: '**', redirectTo: '' }
 ];
 

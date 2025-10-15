@@ -1,0 +1,28 @@
+<div class="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
+  <div *ngIf="loading" class="text-gray-500 text-lg">Loading product details...</div>
+
+  <div *ngIf="error" class="text-red-500 text-lg">{{ error }}</div>
+
+  <div *ngIf="product" class="max-w-4xl bg-white rounded-2xl shadow-lg overflow-hidden">
+    <div class="grid md:grid-cols-2">
+      <img
+        [src]="product.image"
+        [alt]="product.name"
+        class="w-full h-96 object-cover"
+      />
+      <div class="p-8 flex flex-col justify-between">
+        <div>
+          <h1 class="text-3xl font-bold text-gray-900 mb-4">{{ product.name }}</h1>
+          <p class="text-gray-600 mb-6">{{ product.description }}</p>
+          <p class="text-2xl font-semibold text-eastlink-blue mb-6">$ {{ product.price }}</p>
+        </div>
+        <a
+          routerLink="/catalogue"
+          class="inline-block bg-gray-900 text-white text-center py-3 rounded-xl font-semibold hover:bg-gray-700 transition"
+        >
+          ← Back to Catalogue
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
