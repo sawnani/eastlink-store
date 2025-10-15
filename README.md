@@ -34,13 +34,10 @@ This installs all dependencies listed in package.json
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 
-Total Estimated Time : Approximately 5–6 hours
+Total Estimated Time : Approximately 15-20 hours
 
 Desktop Scroll Issue : Desktop layout has a scroll I need some more time to resolve it.
 
 Items you might consider adding in a future version :
-creating environmental files.
-creating seperate interface file for data types.
 adding lint and preetier
 Adding add to cart logic
-Adding real time search.
